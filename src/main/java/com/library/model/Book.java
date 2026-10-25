@@ -26,24 +26,51 @@ public class Book {
         this.price = price;
     }
 
-    public int getId() { return id; }
-    public void setId(int id) { this.id = id; }
+   
+    public int getId() {
+		return id;
+	}
 
-    public String getBname() { return bname; }
-    public void setBname(String bname) { this.bname = bname; }
+	public void setId(int id) {
+		this.id = id;
+	}
 
-    public String getAuthor() { return author; }
-    public void setAuthor(String author) { this.author = author; }
+	public String getBname() {
+		return bname;
+	}
 
-    public String getBooktype() { return booktype; }
-    public void setBooktype(String booktype) { this.booktype = booktype; }
+	public void setBname(String bname) {
+		this.bname = bname;
+	}
 
-    public double getPrice() { return price; }
-    public void setPrice(double price) { this.price = price; }
+	public String getAuthor() {
+		return author;
+	}
 
-    @Override
-    public String toString() {
-        return "Book [id=" + id + ", bname=" + bname + ", author=" + author
-                + ", booktype=" + booktype + ", price=" + price + "]";
-    }
+	public void setAuthor(String author) {
+		this.author = author;
+	}
+
+	public String getBooktype() {
+		return booktype;
+	}
+
+	public void setBooktype(String booktype) {
+		this.booktype = booktype;
+	}
+
+	public double getPrice() {
+		return price;
+	}
+
+	public void setPrice(double price) {
+		this.price = price;
+	}
+
+	@Override
+	public String toString() {
+		return "Book [id=" + id + ", bname=" + bname + ", author=" + author + ", booktype=" + booktype + ", price="
+				+ price + "]";
+	}
+	
 }
